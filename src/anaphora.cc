@@ -48,7 +48,7 @@ void help_message(char *progname)
 	wcerr << "  -z         null-flushing output on \\0" << endl;
 	wcerr << "  -h         shows this message" << endl;
 
-	return 1; //return 1 if error
+	return;
 }
 
 static int debug_flag; //flag set by --debug
